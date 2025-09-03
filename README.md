@@ -12,15 +12,19 @@ Welcome to Grocer, an online tool to help with all your shopping needs.
 
 Each list is an array of item objects. 
 
-- groceryList = []
+```
+groceryList = []
 
 - item = {
     name: string,
     quantity: number,
     isPurchased: boolean
   }
+```
 
-Example: 
+### Example: 
+
+```
 groceryList = [
     {
         itemName: "gallon of milk",
@@ -35,6 +39,7 @@ groceryList = [
         bought: true,
     },
 ];
+```
 
 ## Getting Started
 1. Clone the repository
